@@ -1,0 +1,2 @@
+#/usr/bin/env bash
+gnome-terminal --tab --title="tab 1" --command="bash -c 'roscore'" --tab --title="tab 2" --command="bash -c 'roslaunch turtlebot3_gazebo turtlebot3_house.launch'" --tab --title="tab 3" --command="bash -c 'roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/building.yaml'" --tab --title "rosBridge" --command="roslaunch rosbridge_server rosbridge_websocket.launch" 
